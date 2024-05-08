@@ -136,7 +136,7 @@ const VideoPreview: FC<{ file: OdFileObject }> = ({ file }) => {
               clipboard.copy(`${getBaseUrl()}/api/raw?path=${asPath}${hashedToken ? `&odpt=${hashedToken}` : ''}`)
               toast.success('Copied direct link to clipboard.')
             }}
-            btnColor="pink"
+            btnColor="teal"
             btnText={'Copy direct link'}
             btnIcon="copy"
           />
