@@ -84,17 +84,12 @@ const DownloadButtonGroup = () => {
             clipboard.copy(`${getBaseUrl()}/api/raw?path=${asPath}${hashedToken ? `&odpt=${hashedToken}` : ''}`)
             toast.success('Copied direct link to clipboard.')
           }}
-          btnColor="pink"
+          btnColor="teal"
           btnText={'Copy direct link'}
           btnIcon="copy"
           btnTitle={'Copy the permalink to the file to the clipboard'}
         />
-        <DownloadButton
-          onClickCallback={() => setMenuOpen(true)}
-          btnColor="teal"
-          btnText={'Customise link'}
-          btnIcon="pen"
-        />
+
       </div>
     </>
   )

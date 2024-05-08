@@ -140,33 +140,7 @@ const VideoPreview: FC<{ file: OdFileObject }> = ({ file }) => {
             btnText={'Copy direct link'}
             btnIcon="copy"
           />
-          <DownloadButton
-            onClickCallback={() => setMenuOpen(true)}
-            btnColor="teal"
-            btnText={'Customise link'}
-            btnIcon="pen"
-          />
 
-          <DownloadButton
-            onClickCallback={() => window.open(`iina://weblink?url=${getBaseUrl()}${videoUrl}`)}
-            btnText="IINA"
-            btnImage="/players/iina.png"
-          />
-          <DownloadButton
-            onClickCallback={() => window.open(`vlc://${getBaseUrl()}${videoUrl}`)}
-            btnText="VLC"
-            btnImage="/players/vlc.png"
-          />
-          <DownloadButton
-            onClickCallback={() => window.open(`potplayer://${getBaseUrl()}${videoUrl}`)}
-            btnText="PotPlayer"
-            btnImage="/players/potplayer.png"
-          />
-          <DownloadButton
-            onClickCallback={() => window.open(`nplayer-http://${window?.location.hostname ?? ''}${videoUrl}`)}
-            btnText="nPlayer"
-            btnImage="/players/nplayer.png"
-          />
         </div>
       </DownloadBtnContainer>
     </>
