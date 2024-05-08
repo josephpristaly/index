@@ -22,9 +22,6 @@ export default function OAuthStep1() {
 
         <div className="mx-auto w-full max-w-5xl p-4">
           <div className="rounded bg-white p-3 dark:bg-gray-900 dark:text-gray-100">
-            <div className="mx-auto w-52">
-              <Image src="/images/fabulous-fireworks.png" width={912} height={912} alt="fabulous fireworks" priority />
-            </div>
             <h3 className="mb-4 text-center text-xl font-medium">{'Welcome to your new onedrive-cf-index-ng 🎉'}</h3>
 
             <h3 className="mb-2 mt-4 text-lg font-med ium">{'Step 1/3: Preparations'}</h3>
