@@ -13,7 +13,7 @@ const FourOhFour: React.FC<{ errorMsg: string }> = ({ errorMsg }) => {
         <div className="text-sm">
           Press{' '}
           <kbd className="rounded border border-gray-400/20 bg-gray-100 px-1 font-mono text-xs dark:bg-gray-800">
-          ৪০৪
+          404
           </kbd>{' '}
           and open devtools for more details, and report this issue to{' '}
           <a
