@@ -39,7 +39,7 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/Private', /Personal', '/Protected'],
+  protectedRoutes: ['/Private', '/Personal', '/Protected'],
   ],
 
   // This is a day.js-style datetime format string to format datetimes in the app. Ref to
